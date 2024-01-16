@@ -7,5 +7,8 @@
 .projects {
     display: flex;
     flex-direction: row;
-    gap: var(--gap-projects);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: calc(2*var(--gap-projects));
 }

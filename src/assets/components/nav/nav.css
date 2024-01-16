@@ -2,6 +2,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 2rem;
 }
 
 nav p {
@@ -18,4 +19,9 @@ nav div {
 nav div a {
     color: var(--color-white-blue);
     text-decoration: none;
+}
+
+nav img {
+    height: 2rem;
+    width: 2rem;
 }

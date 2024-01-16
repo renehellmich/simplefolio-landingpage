@@ -1,6 +1,6 @@
 import './nav.css'
 
-const Nav = () => {
+const Nav = (props) => {
     return (
         <>
             <nav>
@@ -10,7 +10,7 @@ const Nav = () => {
                     <a href="#">skills</a>
                     <a href="#">contact</a>
                     <a href="#">
-                        <img src="" alt="" />
+                        <img src={props.img} alt="" />
                     </a>
                 </div>
             </nav>

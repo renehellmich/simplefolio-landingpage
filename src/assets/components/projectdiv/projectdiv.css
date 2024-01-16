@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     gap: var(--gap-projects);
-    padding: 1rem;
+    padding: 2rem 1rem;
     box-shadow: 0 0 8px 0 black;
     background: var(--color-medium-dark-blue);
 }
