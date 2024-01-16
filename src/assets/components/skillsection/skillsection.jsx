@@ -1,3 +1,5 @@
+import './skillsection.css'
+
 const SkillSection = () => {
     return (
         <>

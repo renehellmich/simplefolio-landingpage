@@ -2,4 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background: var(--color-dark-blue);
 }
+
+#root {
+  --color-dark-blue: #23283e;
+  --color-medium-dark-blue: #2a2f4c;
+  --color-white-blue: #bdbddd;
+  --color-white: #cdcdff;
+  --color-grey-blue: #90a0d9;
+}
+

@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 16px
+}
+
+nav p {
+    color: var(--color-grey-blue);
+    font-weight: bold;
+    font-size: 2rem
+}
+
+nav div {
+    display: flex;
+    gap: 16px;
+}
+
+nav div a {
+    color: var(--color-white-blue);
+    text-decoration: none;
+}

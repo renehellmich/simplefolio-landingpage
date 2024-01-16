@@ -1,3 +1,5 @@
+import './headsection.css'
+
 const HeadSection = () => {
     return (
         <>

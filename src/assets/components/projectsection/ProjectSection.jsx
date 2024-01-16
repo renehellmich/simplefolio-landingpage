@@ -1,4 +1,5 @@
 import ProjectDiv from "../projectdiv/ProjectDiv";
+import './projectsection.css'
 
 const ProjectSection = () => {
     return (

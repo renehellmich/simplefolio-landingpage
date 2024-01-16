@@ -1,3 +1,5 @@
+import './projectdiv.css'
+
 const ProjectDiv = (props) => {
     return (
         <>
