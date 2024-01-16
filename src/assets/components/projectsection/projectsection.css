@@ -1,0 +1,11 @@
+#headerProjects {
+    text-align: center;
+    color: var(--color-white-blue);
+    margin: 4rem 0 2rem 0;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-projects);
+}

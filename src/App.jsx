@@ -9,10 +9,12 @@ function App() {
 
   return (
     <>
-      <Nav/>
-      <HeadSection/>
-      <ProjectSection/>
-      <SkillSection/>
+      <main className='App'>
+        <Nav/>
+        <HeadSection/>
+        <ProjectSection/>
+        <SkillSection/>
+      </main>
     </>
   )
 }

@@ -4,15 +4,18 @@ import './projectsection.css'
 const ProjectSection = () => {
     return (
         <>
-            <ProjectDiv
-                header = "Project 1"
-            />
-            <ProjectDiv
-                header = "Project 2"
-            />
-            <ProjectDiv
-                header = "Project 3"
-            />
+            <h3 id="headerProjects">PROJECTS</h3>
+            <article className="projects">
+                <ProjectDiv
+                    header = "Project 1"
+                />
+                <ProjectDiv
+                    header = "Project 2"
+                />
+                <ProjectDiv
+                    header = "Project 3"
+                />
+            </article>
         </>
     );
 }

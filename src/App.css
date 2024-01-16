@@ -11,5 +11,12 @@
   --color-white-blue: #bdbddd;
   --color-white: #cdcdff;
   --color-grey-blue: #90a0d9;
+
+  --gap-projects: 1rem;
+}
+
+.App {
+  padding: 1rem;
+  height: 100vh;
 }
 

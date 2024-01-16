@@ -1,0 +1,19 @@
+.divProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: var(--gap-projects);
+    padding: 1rem;
+    box-shadow: 0 0 8px 0 black;
+    background: var(--color-medium-dark-blue);
+}
+
+.divProject h3, .divProject p:nth-of-type(2) {
+    color: var(--color-white-blue)
+}
+.divProject p:nth-of-type(1) {
+    color: var(--color-grey-blue);
+    text-align: center
+}

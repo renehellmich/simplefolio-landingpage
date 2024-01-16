@@ -1,1 +1,61 @@
+.scSkills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+}
 
+.scSkills h3 {
+    color: var(--color-white);
+    margin-bottom: 2rem;
+}
+
+.divSkills {
+    display: grid;
+    grid-template-columns: repeat((4, 1fr));
+    grid-template-rows: 2;
+    grid-template-areas: 
+    "p1 p2 p3 p4"
+    "p5 p6 p7 p8";
+    width: 50vw;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.divSkills p {
+    text-align: center;
+    background: var(--color-medium-dark-blue);
+    color: var(--color-grey-blue);
+    padding: 1rem;
+    width: fit-content;
+    font-size: larger;
+}
+
+.divSkills p:nth-of-type(1) {
+    grid-area: p1;
+}
+.divSkills p:nth-of-type(2) {
+    grid-area: p2;
+}
+.divSkills p:nth-of-type(3) {
+    grid-area: p3;
+    justify-self: end;
+}
+.divSkills p:nth-of-type(4) {
+    grid-area: p4;
+    justify-self: end;
+}
+.divSkills p:nth-of-type(5) {
+    grid-area: p5;
+}
+.divSkills p:nth-of-type(6) {
+    grid-area: p6;
+}
+.divSkills p:nth-of-type(7) {
+    grid-area: p7;
+    justify-self: end;
+}
+.divSkills p:nth-of-type(8) {
+    grid-area: p8;
+    justify-self: end;
+}
